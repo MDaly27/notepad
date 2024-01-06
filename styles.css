@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+#homepage {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#editor-container {
+  text-align: left; /* Align text to the left side */
+}
+
+#editor {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  min-height: 300px;
+  padding: 10px;
+  white-space: pre-wrap;
+  outline: none;
+}
+
+#fileList {
+  text-align: center;
+}
+
+.file-link {
+  display: block;
+  margin: 10px;
+}
+
+#backButton {
+  display: block;
+  margin: 10px auto;
+}
